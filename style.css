@@ -7,12 +7,69 @@ body {
 body {
   font-family: 'Josefin Slab', serif;
 }
+nav {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+hr {
+  margin: 25px auto;
+}
+header {
+  position: relative;
+  width: 100%;
+  background-image: url('');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+header .header-content .header-content-inner p {
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btn {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
