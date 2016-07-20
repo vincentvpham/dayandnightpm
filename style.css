@@ -5,6 +5,7 @@ body {
 }
 body {
   font-family: 'Josefin Slab', serif;
+  font-size: 18px;
 }
 nav {
   font-family: 'Oswald', sans-serif;
@@ -20,7 +21,8 @@ h6 {
   text-transform: uppercase;
 }
 hr {
-  margin: 25px auto;
+  width: 100px;
+  border: solid;
 }
 header {
   position: relative;
@@ -85,35 +87,49 @@ header .header-content {
   }
 }
 
+#about p {
+  font-size: 24px;
+}
+
 .icon {
   display: inline-block;
   height: 100px;
   width: 100px;
   margin: 25px;
 }
+
 .pressure-wash {
   background: url("./assets/pressure_wash_icon.png");
 }
+
 .repair {
   background: url("./assets/repair_icon.png");
 }
+
 .sweeping {
   background: url("./assets/sweeping_icon.png");
   width: 147px;
 }
+
 .scrubbing {
   background: url("./assets/scrubbing_icon.png");
   width: 119px;
 }
+
 .phone {
   background: url("./assets/phone_icon.png");
 }
+
 .email {
   background: url("./assets/email_icon.png");
 }
 
 .service p {
   margin: 0 25px 0 25px;
+}
+
+#services {
+  margin-bottom: 25px;
 }
 
 .footer {
