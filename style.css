@@ -105,6 +105,12 @@ header .header-content {
   background: url("./assets/scrubbing_icon.png");
   width: 119px;
 }
+.phone {
+  background: url("./assets/phone_icon.png");
+}
+.email {
+  background: url("./assets/email_icon.png");
+}
 
 .service p {
   margin: 0 25px 0 25px;
