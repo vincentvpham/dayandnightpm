@@ -85,6 +85,31 @@ header .header-content {
   }
 }
 
+.icon {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+}
+.pressure-wash {
+  background: url("./assets/pressure_wash_icon.png");
+}
+.repair {
+  background: url("./assets/repair_icon.png");
+}
+.sweeping {
+  background: url("./assets/sweeping_icon.png");
+  width: 147px;
+}
+.scrubbing {
+  background: url("./assets/scrubbing_icon.png");
+  width: 119px;
+}
+
+.service p {
+  margin: 0 25px 0 25px;
+}
+
 .footer {
   bottom: 0;
   width: 100%;
