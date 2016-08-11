@@ -80,8 +80,19 @@ header .header-content {
   }
 }
 
+.navbar-brand {
+  background: url("./assets/text_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+}
+
 #about p {
   font-size: 24px;
+}
+
+.btn-primary, .bg-primary {
+  background-color: #5C5C5C;
 }
 
 .icon {
