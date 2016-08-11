@@ -75,13 +75,18 @@ header .header-content .header-content-inner p {
   margin-right: auto;
 }
 
-
 .navbar-brand {
   background: url("./assets/text_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 225px;
   background-position: center;
+}
+
+@media screen and (max-width: 768px) and (min-width: 400px) {
+  .navbar-brand {
+    margin-left: 25px;
+  }
 }
 
 #about p,
